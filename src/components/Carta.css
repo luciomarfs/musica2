@@ -1,0 +1,104 @@
+.cartao_geral{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items:stretch;
+ 
+  width:88vh;
+  height: 88vh;
+  flex-grow: 1;
+
+}
+
+#quadrante1 {
+  width: 50%;
+  height: 50%;
+  min-width:300px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(145, 192, 192);
+ 
+  ;
+}
+#quadrante2 {
+  width: 50%;
+  height: 50%;
+  min-width:300px;
+  min-height: 300px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 173, 130);
+}
+#quadrante3 {
+  width: 50%;
+  height: 50%;
+  min-width:300px;
+  min-height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(199, 209, 152);
+}
+#quadrante4 {
+  width: 50%;
+  height: 50%;
+  min-width:300px;
+  min-height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(152, 172, 209);
+}
+.longa_hor {
+  width: 90%;
+  /* quadrados são retangulos com width = height  */
+  height: 50px;
+  background-color: #09475e;
+}
+
+.longa_ver {
+  width: 50px;
+  /* quadrados são retangulos com width = height  */
+  height: 90%;
+  background-color: #09475e;
+}
+.curta_hor {
+  width: 30%;
+  /* quadrados são retangulos com width = height  */
+  height: 50px;
+  background-color: #09475e;
+}
+
+.curta_ver {
+  width: 50px;
+  /* quadrados são retangulos com width = height  */
+  height: 30%;
+  background-color: #09475e;
+}
+
+.ponto {
+  background-color: #09475e;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+#retangulo2 {
+  border: 3px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: 250px;
+  /* quadrados são retangulos com width = height  */
+  height:250px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
